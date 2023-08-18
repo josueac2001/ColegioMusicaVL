@@ -1,0 +1,122 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+main {
+    margin: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: left;
+    padding: 5px;
+}
+
+/* Estilos del formulario de inicio de sesión */
+.login-container {
+    max-width: 300px;
+    margin: 0 auto;
+    padding: 2rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+}
+
+.login-container h2 {
+    margin-bottom: 1rem;
+}
+
+.login-form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.alignLeft{
+    text-align: left;
+}
+
+.alignRight{
+    text-align: right;
+}
+
+.alignCenter{
+    text-align: center;
+}
+
+.img{
+    width: 300px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+}
+
+.buttonRed {
+    background-color:crimson;
+    border: 3px solid crimson;
+    border-radius: 5px;
+    color: white;
+    padding: 15px 32px;
+    margin-bottom: 1rem;
+    transition-duration: 0.4ms;
+    align-self: center;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13px;
+    border-color: crimson;
+    margin-right: 0.8rem;
+}
+.buttonRed:hover{
+    background-color: white;
+    color: #333;
+    border-color: crimson;
+}
+
+.buttonGray {
+    background-color:#717D7E;
+    border: 3px solid #717D7E;
+    border-radius: 5px;
+    color: white;
+    padding: 15px 32px;
+    margin-bottom: 1rem;
+    align-self: center;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13px;
+    border-color: #717D7E;
+    margin-left: 0.8rem;
+}
+.buttonGray:hover{
+    background-color: white;
+    color: #333;
+    border-color: #717D7E;
+}
