@@ -11,6 +11,17 @@ header {
     padding: 10px;
 }
 
+.logo {
+    margin-right: 10px;
+}
+
+.logo img {
+    width: 100px;
+}
+h1 {
+    margin: 0;
+}   
+
 nav ul {
     list-style-type: none;
     padding: 0;
@@ -63,8 +74,11 @@ footer {
     text-align: left;
 }
 
-.alignRight{
+.alignRight{    
     text-align: right;
+    margin-left: 60rem;
+
+
 }
 
 .alignCenter{
@@ -72,7 +86,6 @@ footer {
 }
 
 .img{
-    width: 600px;
     border: 2px solid #ccc;
     border-radius: 5px;
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
@@ -120,3 +133,7 @@ footer {
     color: #333;
     border-color: #717D7E;
 }
+
+
+
+
